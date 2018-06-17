@@ -1,0 +1,341 @@
+/* Global Font*/
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans");*/
+
+/*Start Main Style Rulez*/
+
+*, html,body,{
+	margin: 0;
+	padding: 0;
+} 
+
+body {
+    height: 4000px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.clearfix{clear:both;}
+/*End Main Style Rulez*/
+
+/*Start Header Style*/
+.header .slider {
+    background-image: url('../image/header-bg-about-us.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+}
+
+.header .slider .entro {
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+.header .slider .entro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 5px 0; 
+}
+
+.header .slider .entro button{
+    background: none;
+    /*width :140px;*/
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff; 
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.header .navbar {
+    background: #252f31;
+    color: #fff;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.header .navbar h2{
+    float: left
+}
+
+.header .navbar h2 span{color: #2ecc71;}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;  
+}
+
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: #2ecc71;
+}
+/*End Header Style*/
+
+
+/*Start Features Style*/
+.features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.features .feature{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+}
+
+.features .feature h2{
+    text-transform: uppercase;
+    color: #566366;
+}
+
+.features .feature p{
+    line-height: 1.7;
+    color: #45ad90;
+}
+
+/*End Features Style*/
+
+
+/*Start Info About Me*/
+.aboutMe {
+    background: #F2F2F2;
+    overflow: hidden;
+}
+
+.aboutMe .image{
+    float:left;
+    width: 40%;
+}
+
+.aboutMe .image img{
+    width: 100%;
+}
+
+.aboutMe .info{
+    float: left;
+    width: 60%; 
+}
+
+.aboutMe .info h2{
+    margin: 25px 0 20px 40px; 
+    color: #566366;
+	text-transform: uppercase;
+}
+
+.aboutMe .info p{
+    line-height: 1.5;
+    color: #aeaeae;
+    padding: 2px;
+}
+
+.aboutMe .info>p{
+    margin: 0 0 10px 40px; 
+    
+}
+
+.aboutMe .info>p:last-of-type{margin-top: 30px;}
+
+
+
+.aboutMe .info .hobbies{
+    overflow: hidden;
+    margin: 15px 0 0 40px;
+}
+
+.aboutMe .info .hobbies .content{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.aboutMe .info .hobbies .content .icon{
+    float:left;
+    width: 10%;
+    margin-right: 5%;
+	
+}
+
+.aboutMe .info .hobbies .content .icon img{
+	max-width: 100%;
+	margin: 40px 0 0 10px;
+}
+
+.aboutMe .info .hobbies .content .text{
+    float: left;
+    width: 85%;
+}
+
+.aboutMe .info > p:last-of-type{margin-top: 30px;}
+
+.aboutMe .info .hobbies .content .text p{ margin-top: 5px;}
+
+.aboutMe .info .hobbies .content .text h3{
+	color: #566366;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+/*End Info About Me */
+ 
+/*Strat Skills Style*/
+.skills {
+	/*padding: 30px 0;*/
+    
+	padding-top: 30px;      /* padding from top equle 30px */
+    padding-bottom: 50px;    /* padding from buttom equle 30px */
+    overflow: hidden;
+}
+
+.skills .mySkills,
+.skills .progress {
+    width: 50%;
+    float: left;
+}
+.skills .mySkills h2{
+   /* margin: 25px 0 20px 40px;*/ 
+    color: #566366;
+	text-transform: uppercase;
+}
+
+.skills .mySkills p{
+    line-height: 1.5;
+    color: #aeaeae;
+    padding: 2px;
+	/* margin: 0 0 10px 40px; */
+}
+
+.skills .mySkills button{
+	border: 3px solid #2ecc71;
+	background: none;
+	padding: 5px 40px;
+	color: #2ecc71;
+	text-transform: uppercase;
+}
+  
+/*.skills .mySkills button:focus{border: none;}*/ /*When I click on it The Border will Gone..*/
+    
+}
+
+.skills .progress .myTechnique{margin-left: 50px;}
+
+.skills .progress .myTechnique h3{
+	color: #566366;
+	text-transform: uppercase;
+}
+.skills .progress .myTechnique div{
+	background: #f2f2f2;
+	height: 25px;
+}
+ 
+.skills .progress .myTechnique div span{
+	height: 25px;
+	background: #2ecc71;
+	display: block;
+	color: #fff;
+	text-align: right;
+	font-weight: bold;
+	line-height: 25px;
+}
+/*End Skills Style*/
+
+/* Strat Resume Styles*/
+.resume {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* End Resume Styles*/
+
+/*Strat Education Style*/
+.education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.education .main,
+.education .experience {
+    width: 50%;
+    float: left;
+}
+/*End Education Style*/
+
+/* Strat Testimonials Styles*/
+.testimonial {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* End Testimonials Styles*/
+
+/*Start Protofolio Styles*/
+.protofolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.protofolio .ourWorks{
+    overflow: hidden;
+}
+
+.protofolio .ourWorks > div{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+}
+
+.protofolio .ourWorks > div img {
+    width: 92%;
+    margin: 10px;
+}
+/*Start Protofolio Styles*/
+
+/*Start Contact Me Styles*/
+.contact {
+    background-color: #252F31;
+    overflow: hidden;
+}
+.contact h2{color:#fff}
+
+.contact p{color:#5A5E61}
+
+.contact .info,
+.contact .form{
+    width: 50%;
+    float: left;
+}
+/*End Contact Me Styles*/
+
+/*Start Footer Styles*/
+.footer {
+    background-color: #191f21;
+    color: #5A5E61;
+    padding: 20px 0;
+    text-align: center;
+}
+/*End Footer Styles*/
