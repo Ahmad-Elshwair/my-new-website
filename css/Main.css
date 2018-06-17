@@ -226,14 +226,7 @@ body {
 	/* margin: 0 0 10px 40px; */
 }
 
-.skills .mySkills button{
-	border: 3px solid #2ecc71;
-	background: none;
-	padding: 5px 40px;
-	color: #2ecc71;
-	text-transform: uppercase;
-}
-  
+
 /*.skills .mySkills button:focus{border: none;}*/ /*When I click on it The Border will Gone..*/
     
 }
@@ -263,8 +256,8 @@ body {
 /* Strat Resume Styles*/
 .resume {
     background-color: #F2F2F2;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
     text-align: center;
 }
 /* End Resume Styles*/
@@ -339,3 +332,15 @@ body {
     text-align: center;
 }
 /*End Footer Styles*/
+
+
+/*Start Framwork*/
+.my-button{
+	border: 3px solid #2ecc71;
+	background: none;
+	padding: 5px 40px;
+	color: #2ecc71;
+	text-transform: uppercase;
+}
+
+/*End Framwork*/
