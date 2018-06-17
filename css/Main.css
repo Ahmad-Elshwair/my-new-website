@@ -359,28 +359,35 @@ body {
 }
 /* End Testimonials Styles*/
 
-/*Start Protofolio Styles*/
-.protofolio {
+/*Start portfolio Styles*/
+.portfolio {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 }
 
-.protofolio .ourWorks{
+.portfolio p{
+	padding: 0 10%;
+	font-size: 17px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.portfolio .ourWorks{
     overflow: hidden;
 }
 
-.protofolio .ourWorks > div{
+.portfolio .ourWorks > div{
     float: left;
     width: 33.333333%;
     margin-bottom: 10px;
 }
 
-.protofolio .ourWorks > div img {
+.portfolio .ourWorks > div img {
     width: 92%;
     margin: 10px;
 }
-/*Start Protofolio Styles*/
+/*Start portfolio Styles*/
 
 /*Start Contact Me Styles*/
 .contact {
