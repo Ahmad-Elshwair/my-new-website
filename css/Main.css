@@ -138,11 +138,7 @@ body {
     margin: 25px 0 20px 40px; 
 }
 
-.aboutMe .info p{
-    line-height: 1.5;
-    color: #aeaeae;
-    padding: 2px;
-}
+
 
 .aboutMe .info>p{
     margin: 0 0 10px 40px; 
@@ -212,8 +208,6 @@ body {
 }
 
 .skills .mySkills p{
-    line-height: 1.5;
-    color: #aeaeae;
     padding: 2px;
 	/* margin: 0 0 10px 40px; */
 }
@@ -255,22 +249,18 @@ body {
     border-right: 30px solid transparent;
     border-top: 20px solid #F2F2F2;
     content: "";
-    height: 0px;
-    left: 50%;
+    height: 0;
+    left: 48%;
     position: absolute;
-    top: 292px;
+    top: 100%;
     width: 0;
 }
 
 .resume p{
-	line-height: 1.6;
-	color: #a0a0a0;
 	padding: 0 50px;
 }
 
-.resume button {
-	margin-top: 15px;
-}
+.resume button {margin-top: 15px;}
 
 
 /* End Resume Styles*/
@@ -287,6 +277,7 @@ body {
     width: 50%;
     float: left;
 }
+
 /*End Education Style*/
 
 /* Strat Testimonials Styles*/
@@ -360,5 +351,12 @@ body {
 .my-heading{
 	text-transform: uppercase;
 	color: #566366;
+}
+
+
+.my-pragaph{
+	line-height: 1.6;
+	color: #a0a0a0;
+	
 }
 /*End Framwork*/
