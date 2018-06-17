@@ -337,6 +337,24 @@ body {
 	padding: 0  17%;
 	margin-top: 2%;
 	font-style: italic;
+	font-weight: bold;
+}
+
+.testimonial ul{
+	list-style: none;
+	text-align: center;
+}
+
+.testimonial ul li{
+	display: inline-block;
+	width: 5px;
+    height: 5px;
+	border: 1px solid #2ecc71;
+	border-radius: 50%;
+}
+.testimonial ul li:hover,
+.testimonial ul li.active{
+	background: #2ecc71;
 }
 /* End Testimonials Styles*/
 
