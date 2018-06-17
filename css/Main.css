@@ -351,7 +351,6 @@ body {
 	width: 5px;
     height: 5px;
 	border: 1px solid #2ecc71;
-	border-radius: 50%;
 }
 .testimonial ul li:hover,
 .testimonial ul li.active{
@@ -385,7 +384,9 @@ body {
 
 .portfolio .ourWorks > div img {
     width: 92%;
-    margin: 10px;
+    margin: 1%;
+    padding: 2px;
+    border: 2px solid #FFEFD5;
 }
 /*Start portfolio Styles*/
 
