@@ -332,6 +332,11 @@ body {
     padding-bottom: 30px;
     text-align: center;
 }
+
+.testimonial p {
+	padding: 0  17%;
+	margin-top: 2%;
+}
 /* End Testimonials Styles*/
 
 /*Start Protofolio Styles*/
