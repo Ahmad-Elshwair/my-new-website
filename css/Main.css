@@ -104,10 +104,7 @@ body {
     height: 150px;
 }
 
-.features .feature h2{
-    text-transform: uppercase;
-    color: #566366;
-}
+
 
 .features .feature p{
     line-height: 1.7;
@@ -139,8 +136,6 @@ body {
 
 .aboutMe .info h2{
     margin: 25px 0 20px 40px; 
-    color: #566366;
-	text-transform: uppercase;
 }
 
 .aboutMe .info p{
@@ -192,8 +187,6 @@ body {
 .aboutMe .info .hobbies .content .text p{ margin-top: 5px;}
 
 .aboutMe .info .hobbies .content .text h3{
-	color: #566366;
-	text-transform: uppercase;
 	margin-bottom: 5px;
 }
 
@@ -215,8 +208,7 @@ body {
 }
 .skills .mySkills h2{
    /* margin: 25px 0 20px 40px;*/ 
-    color: #566366;
-	text-transform: uppercase;
+
 }
 
 .skills .mySkills p{
@@ -233,10 +225,6 @@ body {
 
 .skills .progress .myTechnique{margin-left: 50px;}
 
-.skills .progress .myTechnique h3{
-	color: #566366;
-	text-transform: uppercase;
-}
 .skills .progress .myTechnique div{
 	background: #f2f2f2;
 	height: 25px;
@@ -259,7 +247,32 @@ body {
     padding-top: 40px;
     padding-bottom: 60px;
     text-align: center;
+	position: relative;
 }
+
+.resume::after{
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid #F2F2F2;
+    content: "";
+    height: 0px;
+    left: 50%;
+    position: absolute;
+    top: 292px;
+    width: 0;
+}
+
+.resume p{
+	line-height: 1.6;
+	color: #a0a0a0;
+	padding: 0 50px;
+}
+
+.resume button {
+	margin-top: 15px;
+}
+
+
 /* End Resume Styles*/
 
 /*Strat Education Style*/
@@ -338,9 +351,14 @@ body {
 .my-button{
 	border: 3px solid #2ecc71;
 	background: none;
-	padding: 5px 40px;
+	padding: 10px 30px;
 	color: #2ecc71;
 	text-transform: uppercase;
 }
 
+
+.my-heading{
+	text-transform: uppercase;
+	color: #566366;
+}
 /*End Framwork*/
