@@ -298,6 +298,31 @@ body {
 	display: block;
 	margin-bottom: 1.5%;
 }
+
+.education .experience span:first-of-type{font-weight: bold;}
+
+
+.education .experience span:last-of-type{
+	background: #2ecc71;
+	color: #fff;
+	padding: 5px 5px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.education .experience hr{
+	margin: 20px 0;
+	height: 1px;
+	background: #cccccc;
+	border: 0;
+}
+
+.education hr{
+	border: 0;
+	background: #cccccc;
+	height: 1px;
+}
+
 /*End Education Style*/
 
 /* Strat Testimonials Styles*/
