@@ -178,7 +178,7 @@ body {
     width: 85%;
 }
 
-.aboutMe .info > p:last-of-type{margin-top: 30px;}
+.aboutMe .info > p:last-of-type{margin-top: 25px;}
 
 .aboutMe .info .hobbies .content .text p{ margin-top: 5px;}
 
@@ -197,9 +197,14 @@ body {
     overflow: hidden;
 }
 
-.skills .mySkills,
+.skills .mySkills{
+	width: 50%;
+	margin-right: 5%;
+    float: left;
+}
+
 .skills .progress {
-    width: 50%;
+    width: 45%;
     float: left;
 }
 .skills .mySkills h2{
@@ -212,6 +217,7 @@ body {
 	/* margin: 0 0 10px 40px; */
 }
 
+.skills .mySkills p:last-of-type{margin-top: 25px;}
 
 /*.skills .mySkills button:focus{border: none;}*/ /*When I click on it The Border will Gone..*/
     
@@ -256,9 +262,7 @@ body {
     width: 0;
 }
 
-.resume p{
-	padding: 0 50px;
-}
+.resume p{padding: 0 50px;}
 
 .resume button {margin-top: 15px;}
 
@@ -267,17 +271,33 @@ body {
 
 /*Strat Education Style*/
 .education {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     overflow: hidden;
 }
 
-.education .main,
-.education .experience {
-    width: 50%;
+.education .main{
+	width: 50%;
+	margin-right: 5%;
     float: left;
 }
 
+.education .main p:last-of-type{margin-top: 25px;}
+
+.education .experience {
+    width: 45%;
+    float: left;
+}
+
+.education .experience h3{
+	margin-top: 12%;
+	margin-bottom: 1.5%;
+}
+
+.education .experience span {
+	display: block;
+	margin-bottom: 1.5%;
+}
 /*End Education Style*/
 
 /* Strat Testimonials Styles*/
