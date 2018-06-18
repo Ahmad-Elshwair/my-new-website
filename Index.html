@@ -3,8 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <title>New Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--Librareis-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--This is font awsome library  From google-->
+	<!--<link rel="stylesheet" href="css/fontawesome-all.min.css">-->  <!--This is font awsome library  Form website font awsome downloaded-->
+	<link href="css/Normalize.css" rel="stylesheet" />
+	
     <link href="css/Main.css" rel="stylesheet" >
-    <link href="css/Normalize.css" rel="stylesheet" />
+    
 </head>
 <body>
     <!--Start Header-->
@@ -19,15 +27,15 @@
         </div>
         <div class="navbar">
             <div class="container">
-                <h2>EL<span>shwair</span></h2>
-                <ul>
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Testrmonials</a></li>
-                    <li><a href="#">Protofolio</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                <h2 class="fl-left">EL<span>shwair</span></h2>
+                <ul class="fl-right">
+                    <li class="active fl-left"><a href="#">Home</a></li>
+                    <li class="fl-left"><a href="#">About Us</a></li>
+                    <li class="fl-left"><a href="#">Skills</a></li>
+                    <li class="fl-left"><a href="#">Resume</a></li>
+                    <li class="fl-left"><a href="#">Testrmonials</a></li>
+                    <li class="fl-left"><a href="#">Protofolio</a></li>
+                    <li class="fl-left"><a href="#">Contact Me</a></li>
                 </ul>
             </div>
         </div>
@@ -36,19 +44,19 @@
     <!--Start Section Feature-->
     <div class="features">
         <div class="container">
-            <div class="feature">
+            <div class="feature fl-left">
                 <h2 class="my-heading">Valuse</h2>
-                <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, 
+                <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, 
                     te usu virtute placerat. Purto brute disputando cu est.</p>
             </div>
-            <div class="feature">
+            <div class="feature fl-left">
                 <h2 class="my-heading">Goals</h2>
-                <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, 
+                <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam, 
                     te usu virtute placerat. Purto brute disputando cu est.</p>
             </div>
-            <div class="feature">
+            <div class="feature fl-left">
                 <h2 class="my-heading">HObbies</h2>
-                <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
                     te usu virtute placerat. Purto brute disputando cu est.</p>
             </div>
         </div>
@@ -57,11 +65,11 @@
     <!--Strat Info About Me-->
     <div class="aboutMe">
         <div class="container">
-            <div class="image">
+            <div class="image fl-left">
                 <img src="image/My-Pic1.jpg" alt="Pic's Ahmad Elshwair"/>
                 <!--<img src="https://placehold.it/300/300" alt="Test" />  This Pic To Just Test -->
             </div>
-            <div class="info">
+            <div class="info fl-left">
                 <h2 class="my-heading">About Me</h2>
                 <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam,
                     te usu virtute placerat. Purto brute disputando cu est,
@@ -73,14 +81,15 @@
                 </p>
                 <div class="hobbies">
                     <!--Start Box Content-->
-                    <div class="content">
+                    <div class="content fl-left">
                         <!--Start Box Icon-->
-                        <div class="icon">
-                            <img src="image/web-design.png"  alt=""/>
+                        <div class="icon fl-left">
+						   <i class="material-icons">public</i>       <!--*This is Font Icon *-->
+                           <!-- <img src="image/web-design.png"  alt=""/>-->  <!--*This is Image *-->
                         </div>
                         <!--End Box Icon-->
                         <!--Start Box Text-->
-                        <div class="text">
+                        <div class="text fl-left">
                             <h3 class="my-heading">Web Design</h3>
                             <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
                         </div>
@@ -88,14 +97,15 @@
                     </div>
                     <!--End Box Content-->
                     <!--Start Box Content-->
-                    <div class="content">
+                    <div class="content fl-left">
                         <!--Start Box Icon-->
-                        <div class="icon">
-                            <img src="image/editor.png" alt=""/>
+                        <div class="icon fl-left">
+							<i class="material-icons">mode_edit</i>    <!--*This is Font Icon *-->
+                            <!--<img src="image/editor.png" alt=""/>-->  <!--*This is Image *-->
                         </div>
                         <!--End Box Icon-->
                         <!--Start Box Text-->
-                        <div class="text">
+                        <div class="text fl-left">
                             <h3 class="my-heading">Graphic Design</h3>
                             <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
                         </div>
@@ -103,14 +113,16 @@
                     </div>
                     <!--End Box Content-->
                     <!--Start Box Content-->
-                    <div class="content">
+                    <div class="content fl-left">
                         <!--Start Box Icon-->
-                        <div class="icon">
-                            <img src="image/online-shop.png" alt=""/>
+                        <div class="icon fl-left">
+							
+							<i class="material-icons">people_outline</i>      <!--*This is Font Icon *-->
+                           <!-- <img src="image/online-shop.png" alt=""/> --><!--*This is Image *-->
                         </div>
                         <!--End Box Icon-->
                         <!--Start Box Text-->
-                        <div class="text">
+                        <div class="text fl-left">
                             <h3 class="my-heading">Online Marketing</h3>
                             <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
                         </div>
@@ -120,14 +132,16 @@
 
 
                     <!--Start Box Content-->
-                    <div class="content">
+                    <div class="content fl-left">
                         <!--Start Box Icon-->
-                        <div class="icon">
-                            <img src="image/seo-and-web.png" alt=""/>
+                        <div class="icon fl-left">
+							
+							<i class="material-icons">attach_file</i>  <!--*This is Font Icon *-->
+                           <!-- <img src="image/seo-and-web.png" alt=""/>--> <!--*This is Image *-->
                         </div>
                         <!--End Box Icon-->
                         <!--Start Box Text-->
-                        <div class="text">
+                        <div class="text fl-left">
                             <h3 class="my-heading">Seo</h3>
                             <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
                         </div>
@@ -142,13 +156,13 @@
     <!--Strat Skills-->
     <div class="skills">
         <div class="container">
-            <div class="mySkills">
+            <div class="mySkills fl-left">
                 <h2 class="my-heading">My Skills</h2>
                 <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pri.</p>
 				<p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.</p>
                 <button class="my-button">Contact Me</button>
             </div>
-            <div class="progress">
+            <div class="progress fl-left">
 				
 				<!--**The First Technique HTMLE & CSS ** -->
                 <div class="myTechnique">
@@ -202,7 +216,7 @@
 		<!--*Start The Container That Hold All Inside Education Box*-->
         <div class="container">
 			<!--*Start The Section Of Education*-->
-            <div class="main">
+            <div class="main fl-left">
                 <h2 class="my-heading">My Eduucation</h2>
                 <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pr</p>
                 <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.</p>
@@ -210,7 +224,7 @@
 			<!--*End The Section Of Education*-->
 			
 			<!--*Start Section Of Qualifications*-->
-            <div class="experience">
+            <div class="experience fl-left">
 				<!-- *The first Certificate* -->
                <div class="certificate">
 			   		 <h3 class="my-heading">Graphic Design Diploma</h3>
@@ -237,12 +251,12 @@
 			<!--*End The Line Seprate *-->
 			
             <div class="container">
-                <div class="main">
+                <div class="main fl-left">
                     <h2 class="my-heading">Work Experience</h2>
                     <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne periculis molestiae pr</p>
                     <p class="my-pragaph">Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est.</p>
                 </div>
-               	<div class="experience">
+               	<div class="experience fl-left">
 					
 				<!-- *Start The first Experience* -->
                <div class="certificate">
@@ -303,15 +317,15 @@
             <div class="ourWorks">
 				
 				
-				<div><img src="image/developer.png" alt="" width="350" height="333"/></div>
-                <div><img src="image/javascript.jpg" alt="" width="350" height="333" /></div>
-                <div><img src="image/programmer.png" alt="" width="350" height="333"/></div>
-                <div><img src="image/programming.png" alt="" width="350" height="333"/></div>
-                <div><img src="image/webdesign.jpg" alt="" width="350" height="333"/></div>
-                <div><img src="image/web.png" alt="" width="350" height="333"/></div>
-                <div><img src="image/web-developer.png" alt=""  width="350" height="333"/></div>
-                <div><img src="image/business.jpg" alt="" width="350" height="333"/></div>
-                <div><img src="image/web-designer.png" alt="" width="350" height="333"/></div>
+				<div class="fl-left"><img src="image/developer.png" alt="" width="350" height="333"/></div>
+                <div class="fl-left"><img src="image/javascript.jpg" alt="" width="350" height="333" /></div>
+                <div class="fl-left"><img src="image/programmer.png" alt="" width="350" height="333"/></div>
+                <div class="fl-left"><img src="image/programming.png" alt="" width="350" height="333"/></div>
+                <div class="fl-left"><img src="image/webdesign.jpg" alt="" width="350" height="333"/></div>
+                <div class="fl-left"><img src="image/web.png" alt="" width="350" height="333"/></div>
+                <div class="fl-left"><img src="image/web-developer.png" alt=""  width="350" height="333"/></div>
+                <div class="fl-left"><img src="image/business.jpg" alt="" width="350" height="333"/></div>
+                <div class="fl-left"><img src="image/web-designer.png" alt="" width="350" height="333"/></div>
 				
 				<!-- **This Pic To Just Test ** -->
                 <!--
@@ -333,8 +347,8 @@
     <div class="contact">
         <div class="container">
 			<!--*Start Information Box*-->
-            <div class="info">
-                <h2>Contact Me</h2>
+            <div class="info fl-left">
+                <h2 class="my-heading">Contact Me</h2>
                 <p>
                     Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei.
                 </p>
@@ -351,7 +365,7 @@
 			<!--*End Information Box*-->
 			
 			<!--*Start Box Form*-->
-            <form class="form">
+            <form class="form fl-left">
 				<label>Name <span>*</span></label>
 				<input type="text">
 				
@@ -376,15 +390,36 @@
             <div class="container">
                 <span>Copyright &copy; 2018 Elshwair - Built With Passion</span>
 				<ul>
-					<li><img src="image/social-media/black-and-white/if_twitter_online_social_media_734367.png"></li>
-					<li><img src="image/social-media/black-and-white/if_online_social_media_facebook_734386.png"></li>
-					<li><img src="image/social-media/black-and-white/if_online_social_media_pinterest_734382.png"></li>
-					<li><img src="image/social-media/black-and-white/if_online_social_media_google_plus_734388.png"></li>
-					<li><img src="image/social-media/if_world_115770.png"></li>
-					<li><img src="image/social-media/black-and-white/if_linked_in_online_social_media_734393.png"></li>
+					<li>
+						<i class="fab fa-twitter-square fa-3x"></i>
+						<!--<img src="image/social-media/black-and-white/if_twitter_online_social_media_734367.png">-->
+					</li>
+					<li>
+						<i class="fab fa-facebook-square fa-3x"></i>
+						<!--<img src="image/social-media/black-and-white/if_online_social_media_facebook_734386.png">-->
+					</li>
+					<li>
+						<i class="fab fa-pinterest fa-3x"></i>
+						<!--<img src="image/social-media/black-and-white/if_online_social_media_pinterest_734382.png">-->
+					</li>
+					<li>
+						<i class="fab fa-google-plus fa-3x"></i>
+						<!--<img src="image/social-media/black-and-white/if_online_social_media_google_plus_734388.png">-->
+					</li>
+					<li>
+						<i class="fas fa-globe fa-3x"></i>
+						<!--<img src="image/social-media/if_world_115770.png">-->
+					</li>
+					<li>
+						<i class="fab fa-linkedin fa-3x"></i>
+						<!--<img src="image/social-media/black-and-white/if_linked_in_online_social_media_734393.png">-->
+					</li>
 				</ul>
             </div>
         </div>
     <!--Start Footer Elements-->
+	
+	<!--*File Of JavaScript*-->
+	<script src="js/fontawesome-all.min.js"></script>
 </body>
 </html>
