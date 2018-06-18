@@ -393,16 +393,71 @@ body {
 /*Start Contact Me Styles*/
 .contact {
     background-color: #252F31;
-    overflow: hidden;
+    overflow: hidden;   
+	padding-bottom: 70px;
+    padding-top: 50px;
 }
-.contact h2{color:#fff}
+.contact h2{
+	color:#fff;
+	text-transform: uppercase;
+}
 
-.contact p{color:#5A5E61}
+.contact p{
+	color:#5A5E61;
+	line-height: 1.6;
+}
 
-.contact .info,
-.contact .form{
-    width: 50%;
+.contact .info{
+	width: 50%;
     float: left;
+	margin-right: 5%;
+}
+
+.contact .form{
+    width: 45%;
+    float: left;
+}
+
+.contact .info p strong{
+	color: #D1D6DA;
+	margin-right: 5%;
+}
+
+
+.contact .form label{
+	display: block;
+	color: #D1D6DA;
+	margin-bottom: 1%;
+}
+
+.contact .form label span{color: #5A5E61;}
+
+.contact .form input[type=text] {
+	width: 95%;
+    padding: 10px;
+	margin-bottom: 7%;
+	background: #4b5456;
+	border: none;
+	color: #fff;
+}
+
+.contact .form textarea{
+	width: 95%;
+    padding: 10px;
+	margin-bottom: 7%;
+	background: #4b5456;
+	border: none;
+	color: #fff;
+	height: 300px;
+}
+
+.contact .form input[type=submit]{
+	background: #191f21;
+	padding: 15px 27px;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 /*End Contact Me Styles*/
 
