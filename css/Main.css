@@ -468,6 +468,8 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+
+.footer span{text-transform: uppercase;}
 /*End Footer Styles*/
 
 
